@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to replace "MF" with "SM5" in the paragraph below:</p>
+
+<p id="demo">Visit MF!</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+    var str = document.getElementById("demo").innerHTML;
+    var res = str.replace("MF", "SM5");
+    document.getElementById("demo").innerHTML = res;
+}
+</script>
+
+</body>
+</html>
